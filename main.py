@@ -1,3 +1,7 @@
+import requests
+from bs4 import BeautifulSoup
+
+
 #  Step 1
 #  функция запрашивает у пользователя ссылку и проверяет её
 def get_user_link():
